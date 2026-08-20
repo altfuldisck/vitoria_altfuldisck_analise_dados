@@ -336,13 +336,13 @@ else:
 
 # Exercício 47 — Chaves e valores
 capitais = {"Brasil": "Brasília", "Argentina": "Buenos Aires", "Chile": "Santiago"}
-print(f"Chaves: {list(capitais.keys())}")
-print(f"Valores: {list(capitais.values())}")
+print(f"Chaves: {list(capitais.keys())}") #print(capitais.keys())
+print(f"Valores: {list(capitais.values())}") #print(capitais.values())
 
 # Exercício 48 — Percorrendo um dicionário
 produtos_48 = {"caderno": 25.0, "caneta": 4.5, "mochila": 120.0}
-for item, preco in produtos_48.items():
-    print(f"Produto: {item} | Preço: R$ {preco:.2f}")
+for item, preco in produtos_48.items(): #for itens in produtos.items()
+    print(f"Produto: {item} | Preço: R$ {preco:.2f}")#print(chave) e print(valor)
 
 # Exercício 49 — Soma dos valores
 estoque = {"notebook": 5, "mouse": 20, "teclado": 12, "monitor": 4}
